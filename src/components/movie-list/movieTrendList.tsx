@@ -19,6 +19,6 @@ const movieTrendList = ({trendingList}: MovieTrendListProps) => {
       ))}
     </Box>
   );
-}
+} 
 
 export default movieTrendList
