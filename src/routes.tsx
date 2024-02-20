@@ -4,10 +4,14 @@ import Error from "./pages/error";
 import Movie from "./pages/movie";
 import TvSeries from "./pages/tv-series";
 import Bookmark from "./pages/bookmark";
+import Login from "./pages/login";
 
 export const router =  createBrowserRouter([
     {
-        path: "/", element: <Home/>, errorElement: <Error/>,
+        path: "/home", element: <Home/>, errorElement: <Error/>,
+    },
+     {
+        path: "/", element: <Login/>, errorElement: <Error/>,
     },
     {
         path: "/movies", element: <Movie/>, errorElement: <Error/>,
